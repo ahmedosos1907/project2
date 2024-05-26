@@ -1,0 +1,59 @@
+      [
+    
+        {
+         "id":1,
+           "name": "Yuwbilia blandit" ,
+           "cardtitle" : "BASEL" ,
+           "price" :  579.00 ,
+           "card_img" : "../imgs/item1.jpg"
+        },
+        {
+         "id":2,
+            "name": "Yuwnvallis dui" ,
+            "cardtitle" : "BASEL" ,
+            "price" :  550.00 ,
+            "card_img" : "../imgs/item2.jpg" 
+         },
+         {
+            "id":3,
+            "name": "Yuwis parturient" ,
+            "cardtitle" : "BASEL" ,
+            "price" :  560.00 ,
+            "card_img" : "../imgs/item3.webp" 
+         },
+         {
+            "id":4,
+            "name": "Yuwgue suspendisse" ,
+            "cardtitle" : "BASEL" ,
+            "price" :  500.00 ,
+            "card_img" : "../imgs/item4.webp" 
+         },
+         {
+            "id":5,
+            "name": "Yuwalesuada nostra" ,
+            "cardtitle" : "BASEL" ,
+            "price" :  520.00 ,
+            "card_img" : "../imgs/item5.webp" 
+         },
+         {
+            "id":6,
+            "name": "Yuwames adipiscing" ,
+            "cardtitle" : "BASEL" ,
+            "price" :  530.00 ,
+            "card_img" : "../imgs/item6.webp" 
+         },
+         {
+            "id":7,
+            "name": "Yuwotenti convallis" ,
+            "cardtitle" : "BASEL" ,
+            "price" :  589.00 ,
+            "card_img" : "../imgs/item7.webp" 
+         },
+         {
+            "id":8,
+            "name": "Yuwlitora sem" ,
+            "cardtitle" : "BASEL" ,
+            "price" :  599.00 ,
+            "card_img" : "../imgs/item8.webp" 
+         }
+    ]

@@ -1,0 +1,471 @@
+ @import url("bootstrap.min.css");
+@import url("fonts.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+@import url("animate.css");
+img {
+    width: 100%;
+}
+
+body {
+    font-family:Poppins-Regular;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.collapse {
+    font-size: 15px;
+}
+.header{
+    background-color: white;
+    height: 95px;
+    line-height: 95px;
+}
+.clor{
+    background-color: rgb(44, 101, 194) !important;
+}
+.icon{
+    font-size: 20px;
+}
+.sec1{
+    /* background-image: url(../img/car-servise-slide-1-min_d5590803-fc98-45f8-9807-70c535fc0f5c.jpg); */
+    background-image: url(../img/PHOTO-2023-11-26-22-44-35.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+   overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.hometext{
+    text-align: center;
+    color: white;
+}
+.hometext p{
+    margin-top: 20px;
+}
+.bnthome{
+    color: white;
+    padding: 10px 20px;
+    /* background-color: transparent; */
+    background-color: black;
+     border-color: white;
+
+}
+.bnthome:hover{
+    background-color: white;
+    color: black;
+}
+.sec2{
+    margin-top: 35px;
+}
+.sec2title{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+#color1 {
+    color: rgb(44, 101, 194);
+}
+/* Import Google font - Poppins
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap'); */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+ .product{
+  display: flex;
+   padding: 50px 35px;
+  align-items: center;
+  justify-content: center;
+  margin-top:30px ;
+
+}
+.wrapper {
+  width: 100%;
+  position: relative;
+}
+.wrapper i {
+  top: 50%;
+  height: 50px;
+  width: 50px;
+
+  font-size: 1.25rem;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+  /* opacity: 0;
+  transition: all .3s; */
+}
+/* .card :hover .wrapper i{
+  opacity: 1;
+} */
+.wrapper i:active{
+  transform: translateY(-50%) scale(0.85);
+}
+.wrapper i:first-child{
+  left: -45px;
+}
+.wrapper i:last-child{
+  right: -45px;
+}
+.wrapper .carousel{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 3) - 12px);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 16px;
+  /* border-radius: 8px; */
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+.carousel.no-transition {
+  scroll-behavior: auto;
+}
+.carousel.dragging {
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+}
+.carousel.dragging .card {
+  cursor: grab;
+  user-select: none;
+}
+.carousel :where(.card, .img) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel .card {
+  scroll-snap-align: start;
+  height: 300px;
+  list-style: none;
+  background: #fff;
+  cursor: pointer;
+   /* padding-bottom: 15px;  */
+  flex-direction: column;
+  /* width: 500px;
+  padding: 0 ; */
+  border: none;
+
+
+}
+
+.card .img img {
+   width: 100%;
+   transition: all .5s;
+}
+ .carousel .card h2 {
+  font-weight: 500;
+  font-size: 1.56rem;
+
+}
+.carousel .card span {
+  color: #6A6D78;
+  font-size: 1.31rem;
+}
+.card .img .overlay  {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.413);
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: all .3s;
+    z-index: 1;
+}
+.card:hover .img .overlay {
+    opacity: 1;
+}
+.card:hover .img img {
+    transform: scale(0.9);
+}
+.sec3{
+  background-color: rgb(249, 249, 249);
+
+
+}
+.sec3title{
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+
+}
+.cardservices{
+  text-align: center;
+}
+ .cardservicesicon i{
+  font-size: 50px;
+  padding: 15px 0;
+  color: rgb(188, 186, 186);
+}
+.cardservicestitle h3{
+padding: 15px 0;
+}
+.prow{
+  padding: 30px 0;
+}
+.btnsec31{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 60px;
+
+}
+.btnsec3:hover{
+  background-color: rgb(85, 131, 205);
+}
+.btnsec3{
+  padding: 10px 20px;
+  background-color: rgb(44, 101, 194);
+  text-align: center;
+  border: none;
+  color:white;
+
+}
+.sec4{
+  margin-top: 35px;
+    position: relative;
+}
+.card2{
+  margin: 100px auto;
+  text-align: center;
+}
+.card2 .card2Img {
+  position: relative;
+  overflow: hidden;
+}
+.card2 .card2Img .btn4 {
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 30px;
+  position: absolute;
+  bottom: -55px;
+   left: 0;
+  right: 0;
+  transition: all .5s;
+}
+.card2:hover .card2Img .btn4 {
+  bottom: 0;
+}
+#btnicon {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+   opacity: 0;
+  transition: all .5s;
+  color: black;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+}
+.card2:hover .card2Img #btnicon {
+  opacity: 1;
+}
+.carshopping a{
+  color: white;
+}
+
+.card3-details-container{
+  display: none;
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.389);
+  backdrop-filter: blur(3px);
+  align-items: center;
+  justify-content: center;
+}
+.card3-details-container .card3-details{
+  position: relative;
+  background: #fff;
+  height: 400px;
+  padding: 20px;
+  width: 40%;
+}
+.card3-details-container .card3-details h3{
+  margin-bottom: 10px;
+}
+.popclose{
+  position: absolute;
+  height:20px ;
+  width: 20px;
+  top: 20px;
+  right: 10px;
+ 
+  background-color: transparent;
+  font-size: 20px;
+  border: none;
+}
+.card3-details img{
+  height: 40vh;
+}
+.sec5{
+  background-image: url(/img/backrounf2.jpg);
+  height: 60vh;
+  padding: 20px 0;
+}
+.sec5text{
+  margin-top: 80px;
+  color: white;
+}
+.sec5text h5{
+   font-size: 20px;
+}
+.sec5text h2{
+  font-size: 50px;
+}
+.bn632-hover {
+  width: 160px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:hover {
+  background-position: 100% 0;
+
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn26 {
+  background-image: linear-gradient(
+    to right,
+    #25aae1,
+    #4481eb,
+    #04befe,
+    #3f86ed
+  );
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+.sec6text p{
+  padding: 15px 0;
+}
+.carabout ul {
+  padding: 10px 0;
+
+
+ 
+
+}
+.dutttton{
+  display: flex;
+
+  content: "";
+  justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+  background-color: black;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+padding: 50px;
+  position: relative;
+ 
+
+}
+.footertext{
+  color: white;
+}
+.footertext p{
+  font-size: 15px;
+  padding: 15px;
+
+}
+.footericon a{
+  color: white;
+  font-size: 30px;
+   padding: 0 10px;
+
+}
+.copyright{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: white;
+  font-size: 15px;
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+  .wrapper .carousel {
+    grid-auto-columns: calc((100% / 2) - 9px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper .carousel {
+    grid-auto-columns: 100%;
+  }
+}
